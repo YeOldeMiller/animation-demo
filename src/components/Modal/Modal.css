@@ -17,7 +17,7 @@
 }
 
 .ModalClosed {
-  animation: closeModal 0.4s ease-out forwards;
+  animation: closeModal 1s ease-out forwards;
 }
 
 @keyframes openModal {
@@ -31,7 +31,7 @@
   }
   100% {
     opacity: 1;
-    transform: translate(0%);
+    transform: translateY(0%);
   }
 }
 
@@ -46,6 +46,6 @@
   }
   100% {
     opacity: 0;
-    transform: translate(-200%);
+    transform: translateY(-200%);
   }
 }
